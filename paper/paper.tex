@@ -3,8 +3,8 @@
 % Expects neurips_2026.sty next to this file. Competition papers are
 % single-blind, so the single-blind workshop mode keeps author names visible.
 \PassOptionsToPackage{numbers}{natbib}
-\usepackage[final,sglblindworkshop]{neurips_2026}
-\workshoptitle{Interpreting Agent Behavior (IAB)}
+\usepackage[sglblindworkshop, final]{neurips_2026}
+\workshoptitle{Interpreting Agent Behavior (IAB) -- GLEE Competition Track}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -41,7 +41,7 @@ quantiles from 77{,}467 published games, embed the table in the agent, and use
 the quantiles as aspiration levels for offers and acceptances. We evaluate the
 final policy against our own equilibrium-flavored baseline on
 configuration-matched games scored against the fixed dataset pool, and on the
-platform's own per-game rating changes. The final policy is never worse than
+platform's own per-game rating changes. The final policy is not significantly worse than
 the baseline in any role and is better in both bargaining roles ($+0.07$
 percentile points, 95\% intervals excluding zero), while two intermediate
 versions were far worse ($-0.36$ and $-0.22$ for the first mover). A
@@ -211,7 +211,7 @@ periods. The persuasion seller, also unchanged, moved by $+0.134$
 opponent's decision, this measures a shift in the opponent population over the
 competition, which configuration matching against a fixed pool cannot remove.
 The bargaining gains are smaller than that shift. We therefore claim that the
-final policy is never worse than the baseline and better in bargaining on two
+final policy is not significantly worse than the baseline and better in bargaining on two
 independent measures, not that the difference is causally attributable to
 percentile targeting.
 
